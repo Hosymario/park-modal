@@ -55,4 +55,4 @@ jobs:
         app-name: 'GodiWebPortal'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_da09fc51e42a4febbf11206668ff4c27 }}
-        package: .
+        package: ./build
